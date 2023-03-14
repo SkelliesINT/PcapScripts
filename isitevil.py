@@ -1,6 +1,6 @@
 from scapy.all import *
-
-filename = "./Printer.pcap"
+# replace [file] with file being used
+filename = "./[file].pcap"
 print (f"Reading from {filename=}")
 packets = rdpcap(filename)
 # remove or place "not" based on wanting to find evil or not evil.
